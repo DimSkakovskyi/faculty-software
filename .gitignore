@@ -1,0 +1,40 @@
+# Cabal
+dist/
+dist-newstyle/
+cabal.project.local
+cabal.project.local~
+cabal.project.local-*
+
+# Stack
+.stack-work/
+
+# GHC
+*.hi
+*.o
+*.dyn_hi
+*.dyn_o
+*.prof
+*.aux
+*.hp
+*.eventlog
+*.tix
+.ghc.environment.*
+
+# Haskell Language Server
+.hie/
+.hie-bios/
+.repl
+
+# Змінні середовища
+.env
+.env.local
+
+# Редактори та IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Операційні системи
+.DS_Store
+Thumbs.db
