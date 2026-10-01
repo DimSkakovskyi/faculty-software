@@ -56,6 +56,13 @@ executable faculty-software
   hs-source-dirs: 
     app
     src
+  other-modules:
+    Database
+    DbUtil
+    Models
+    PackageRepository
+    PersonRepository
+    EventRepository
 
   build-depends:
       base ^>=4.20.2.0,
